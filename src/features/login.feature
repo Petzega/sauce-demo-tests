@@ -1,3 +1,4 @@
+@login
 Feature: Login
   Como usuario registrado
   Quiero poder iniciar sesion en Sauce Demo

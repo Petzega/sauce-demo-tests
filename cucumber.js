@@ -12,8 +12,5 @@ module.exports = {
       snippetInterface: "async-await",
     },
     timeout: 60000,
-    worldParameters: {
-      headed: false,
-    },
   },
 };

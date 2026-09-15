@@ -22,4 +22,8 @@ export class ProductsPage extends BasePage {
     const text = await this.locators.shoppingCartBadge.textContent();
     return parseInt(text || "0", 10);
   }
+
+  async goToCart(): Promise<void> {
+    await this.locators.shoppingCartLink.click();
+  }
 }

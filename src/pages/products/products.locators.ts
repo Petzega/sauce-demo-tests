@@ -13,6 +13,6 @@ export class ProductsLocators {
 
   addToCartButton(name: string): Locator {
     const slug = name.toLowerCase().replace(/\s+/g, "-");
-    return this.page.locator(`[data-test="add-to-cart-${slug}"]`);
+    return this.page.locator(`id=add-to-cart-${slug}`);
   }
 }
